@@ -1,0 +1,279 @@
+{
+  "store": {
+    "name": "Kasparro Home",
+    "domain": "kasparro-home.myshopify.com",
+    "currency": "USD",
+    "currentDate": "2026-05-20",
+    "supportEmail": "care@kasparro.example",
+    "positioning": "Compact smart-home accessories and desk essentials for apartment living."
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/1001",
+      "handle": "airdock-magnetic-charging-stand",
+      "title": "AirDock Magnetic Charging Stand",
+      "category": "Charging",
+      "price": 64,
+      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=900&q=80",
+      "description": "A compact magnetic desk stand that charges one phone and one Qi earbud case while keeping the phone visible.",
+      "shippingEstimate": "This item typically ships within 2 business days.",
+      "materials": ["recycled aluminum", "soft-touch silicone pad", "braided USB-C cable"],
+      "compatibility": ["MagSafe iPhone 12 or newer", "Qi earbud cases", "USB-C 20W adapter recommended"],
+      "care": "Wipe with a dry microfiber cloth. Do not use solvent cleaners.",
+      "returnEligibility": "standard",
+      "tags": ["charger", "desk", "iphone", "magsafe", "small-space"],
+      "variants": [
+        { "sku": "ADK-BLK", "title": "Graphite", "inventory": 18 },
+        { "sku": "ADK-SIL", "title": "Soft Silver", "inventory": 7 }
+      ],
+      "specs": {
+        "dimensions": "4.1 x 3.2 x 5.7 in",
+        "weight": "11.2 oz",
+        "warranty": "2 years"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1002",
+      "handle": "nestlight-slim-lamp",
+      "title": "NestLight Slim Lamp",
+      "category": "Lighting",
+      "price": 89,
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80",
+      "description": "A narrow LED task lamp with sunrise dimming, a touch slider, and a weighted base for small desks.",
+      "shippingEstimate": "This item typically ships within 2 business days.",
+      "materials": ["powder-coated steel", "frosted polycarbonate diffuser"],
+      "compatibility": ["120V US outlets", "Kasparro Home app optional", "2.4 GHz Wi-Fi for smart schedules"],
+      "care": "Unplug before cleaning. Dust diffuser gently with a dry cloth.",
+      "returnEligibility": "standard",
+      "tags": ["lamp", "lighting", "desk", "wifi", "apartment"],
+      "variants": [
+        { "sku": "NST-CLY", "title": "Clay White", "inventory": 12 },
+        { "sku": "NST-MOS", "title": "Moss Green", "inventory": 0 }
+      ],
+      "specs": {
+        "dimensions": "3.6 x 5.0 x 17.8 in",
+        "lumens": "480 lm",
+        "warranty": "2 years"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1003",
+      "handle": "linen-cable-tray",
+      "title": "Linen Cable Tray",
+      "category": "Organization",
+      "price": 38,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+      "description": "A clamp-on cable tray wrapped in woven linen that hides cords under a desk without drilling.",
+      "shippingEstimate": "This item typically ships within 2 business days.",
+      "materials": ["bent steel frame", "woven linen sleeve", "rubber clamp pads"],
+      "compatibility": ["desk edges 0.4 to 1.8 in thick", "no-drill installation"],
+      "care": "Spot clean sleeve with cold water and mild soap.",
+      "returnEligibility": "standard",
+      "tags": ["cable", "organization", "desk", "renter-friendly"],
+      "variants": [
+        { "sku": "LCT-NAT", "title": "Natural Linen", "inventory": 24 },
+        { "sku": "LCT-CHR", "title": "Charcoal Linen", "inventory": 16 }
+      ],
+      "specs": {
+        "dimensions": "15.5 x 4.8 x 3.2 in",
+        "maxLoad": "7 lb",
+        "warranty": "1 year"
+      }
+    },
+    {
+      "id": "gid://shopify/Product/1004",
+      "handle": "archive-sample-bundle",
+      "title": "Archive Sample Bundle",
+      "category": "Final Sale",
+      "price": 22,
+      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=80",
+      "description": "A rotating final-sale bundle of discontinued cable clips, desk pads, and color samples.",
+      "materials": ["mixed materials by bundle"],
+      "compatibility": ["varies by sample", "not eligible for returns"],
+      "care": "Care instructions vary by included sample.",
+      "returnEligibility": "final_sale",
+      "tags": ["sample", "bundle", "final-sale", "desk"],
+      "variants": [
+        { "sku": "ASB-MIX", "title": "Mixed Neutral", "inventory": 5 }
+      ],
+      "specs": {
+        "contents": "3 to 5 sample items",
+        "warranty": "none"
+      }
+    }
+  ],
+  "policies": {
+    "shipping": {
+      "summary": "Standard US shipping is free over $75 and usually arrives in 3 to 6 business days.",
+      "rules": [
+        "Orders under $75 have a $6.95 standard shipping fee.",
+        "Expedited 2-business-day shipping is $14.95 when all items are in stock.",
+        "International shipping is not available for this mock store.",
+        "Orders placed after 2 PM Eastern ship on the next business day."
+      ]
+    },
+    "returns": {
+      "summary": "Most items can be returned within 30 days of delivery in like-new condition.",
+      "windowDays": 30,
+      "rules": [
+        "Final-sale items, opened sample bundles, and gift cards cannot be returned.",
+        "Return shipping is free for defective items and $5.95 for preference returns.",
+        "Refunds are issued to the original payment method after inspection.",
+        "Items damaged in transit should be reported within 7 days of delivery."
+      ]
+    },
+    "warranty": {
+      "summary": "Chargers and lamps include a 2-year limited warranty; organization products include a 1-year limited warranty.",
+      "rules": [
+        "Warranty covers manufacturing defects under normal household use.",
+        "Warranty does not cover misuse, cosmetic wear, or unauthorized modification.",
+        "A proof of purchase or order number is required for warranty review."
+      ]
+    },
+    "privacy": {
+      "summary": "The agent can reveal full order destination details only when the shopper email matches the order email.",
+      "rules": [
+        "Without verification, order answers are limited to fulfillment status and tracking.",
+        "Payment details are never shown in chat.",
+        "Address changes after fulfillment require human review."
+      ]
+    }
+  },
+  "orders": [
+    {
+      "id": "gid://shopify/Order/5001",
+      "name": "KS-1001",
+      "createdAt": "2026-05-18",
+      "deliveredAt": null,
+      "financialStatus": "paid",
+      "customer": {
+        "name": "Jordan Lee",
+        "email": "jordan@example.com"
+      },
+      "shippingAddress": {
+        "city": "Austin",
+        "province": "TX",
+        "country": "US"
+      },
+      "fulfillment": {
+        "status": "label_created",
+        "carrier": "USPS",
+        "trackingNumber": "9400111899223857000001",
+        "trackingUrl": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400111899223857000001",
+        "eta": "2026-05-23"
+      },
+      "items": [
+        {
+          "lineItemId": "li_1001_1",
+          "productId": "gid://shopify/Product/1001",
+          "sku": "ADK-BLK",
+          "title": "AirDock Magnetic Charging Stand - Graphite",
+          "quantity": 1
+        },
+        {
+          "lineItemId": "li_1001_2",
+          "productId": "gid://shopify/Product/1003",
+          "sku": "LCT-NAT",
+          "title": "Linen Cable Tray - Natural Linen",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Order/5002",
+      "name": "KS-1002",
+      "createdAt": "2026-05-11",
+      "deliveredAt": "2026-05-16",
+      "financialStatus": "paid",
+      "customer": {
+        "name": "Mira Patel",
+        "email": "mira@example.com"
+      },
+      "shippingAddress": {
+        "city": "Seattle",
+        "province": "WA",
+        "country": "US"
+      },
+      "fulfillment": {
+        "status": "delivered",
+        "carrier": "UPS",
+        "trackingNumber": "1Z999AA10123456784",
+        "trackingUrl": "https://www.ups.com/track?tracknum=1Z999AA10123456784",
+        "eta": "2026-05-16"
+      },
+      "items": [
+        {
+          "lineItemId": "li_1002_1",
+          "productId": "gid://shopify/Product/1002",
+          "sku": "NST-CLY",
+          "title": "NestLight Slim Lamp - Clay White",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Order/5003",
+      "name": "KS-1003",
+      "createdAt": "2026-03-21",
+      "deliveredAt": "2026-04-02",
+      "financialStatus": "paid",
+      "customer": {
+        "name": "Sam Rivera",
+        "email": "sam@example.com"
+      },
+      "shippingAddress": {
+        "city": "Denver",
+        "province": "CO",
+        "country": "US"
+      },
+      "fulfillment": {
+        "status": "delivered",
+        "carrier": "FedEx",
+        "trackingNumber": "61299991234567890123",
+        "trackingUrl": "https://www.fedex.com/fedextrack/?trknbr=61299991234567890123",
+        "eta": "2026-04-02"
+      },
+      "items": [
+        {
+          "lineItemId": "li_1003_1",
+          "productId": "gid://shopify/Product/1001",
+          "sku": "ADK-SIL",
+          "title": "AirDock Magnetic Charging Stand - Soft Silver",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Order/5004",
+      "name": "KS-1004",
+      "createdAt": "2026-05-17",
+      "deliveredAt": "2026-05-19",
+      "financialStatus": "paid",
+      "customer": {
+        "name": "Avery Chen",
+        "email": "avery@example.com"
+      },
+      "shippingAddress": {
+        "city": "Brooklyn",
+        "province": "NY",
+        "country": "US"
+      },
+      "fulfillment": {
+        "status": "delivered",
+        "carrier": "USPS",
+        "trackingNumber": "9400111899223857000004",
+        "trackingUrl": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400111899223857000004",
+        "eta": "2026-05-19"
+      },
+      "items": [
+        {
+          "lineItemId": "li_1004_1",
+          "productId": "gid://shopify/Product/1004",
+          "sku": "ASB-MIX",
+          "title": "Archive Sample Bundle - Mixed Neutral",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
