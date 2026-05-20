@@ -85,7 +85,6 @@ The frontend stores the latest `slots` object returned by the assistant and send
 ## Tests
 
 `npm test` covers:
-
 - Product answer grounded in product data.
 - Order tracking.
 - Missing order number handling.
