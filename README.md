@@ -14,6 +14,9 @@ This is a Shopify-native mock support agent for **Kasparro Home**, a synthetic s
 - Product, technical, and decision documentation in [`docs/`](./docs).
 - Tests for the core support engine.
 
+
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/6443a660-9c65-4a37-805b-2a55ec3c422b" />
+
 ## Quick Start
 
 ```bash
