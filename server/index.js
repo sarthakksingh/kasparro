@@ -2,14 +2,15 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import { randomUUID } from "node:crypto";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { loadStoreData } from "./storeData.js";
 import { SupportEngine } from "./supportEngine.js";
 
 dotenv.config();
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
-
-
 const port = process.env.PORT || 8787;
 const store = loadStoreData();
 const engine = new SupportEngine(store, {
@@ -86,8 +87,10 @@ app.post("/api/chat", async (req, res) => {
   }
 });
 
-app.use((_req, res) => {
-  res.status(404).json({ error: "Not found" });
+app.use(express.static(path.join(__dirname, "../dist")));
+
+app.get("*", (_req, res) => {
+  res.sendFile(path.join(__dirname, "../dist/index.html"));
 });
 
 app.listen(port, () => {
